@@ -28,3 +28,7 @@ All the codes are tested in the following environment:
 7. Install ignite with `pip install pytorch-ignite`
 8. Install numba with `pip install numba`
 
+## Supported Datasets
+- [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download)
+- [Street3D](https://kutao207.github.io/shrec2020)
+
