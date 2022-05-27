@@ -25,7 +25,7 @@ Our code uses torchsparse
   ```
   conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
   ```
-3. Install [GitHub Pages](https://pages.github.com/) [tortchsparse]([https://pages.github.com/](https://github.com/mit-han-lab/torchsparse) <!-- tortchsparse from https://github.com/mit-han-lab/torchsparse -->
+3. Install [GitHub Pages](https://pages.github.com/) [tortchsparse]([https://pages.github.com/](https://github.com/mit-han-lab/torchsparse/) <!-- tortchsparse from https://github.com/mit-han-lab/torchsparse -->
 4. For k-NN execute the `lib\pointops\setup.py` file. It can be downloaded from: https://github.com/POSTECH-CVLab/point-transformer
 5. Install h5py from https://docs.h5py.org/en/latest/build.html with `conda install h5py`
 6. Install tqdm with `pip install tqdm`
