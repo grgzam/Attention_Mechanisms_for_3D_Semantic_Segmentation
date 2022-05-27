@@ -14,6 +14,7 @@ All the codes are tested in the following environment:
 - Python 3.9.7
 - PyTorch 1.10
 - CUDA 11.4
+- [torchsparse](https://github.com/mit-han-lab/torchsparse)
 
 
 ## Install
