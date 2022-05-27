@@ -20,10 +20,7 @@ All the codes are tested in the following environment:
 ## Install 
 
 1. Construct an anaconda environment with python 3.9.7
-2. Install pytorch 1.10
-  ```
-  conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
-  ```
+2. Install pytorch 1.10 `conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge`
 3. Install [torchsparse](https://github.com/mit-han-lab/torchsparse) with `pip install --upgrade git+https://github.com/mit-han-lab/torchsparse.git@v1.4.0`
 4. For the k-NN, we use the operations as implemented in [PointTransformer](https://github.com/POSTECH-CVLab/point-transformer). Execute the lib\pointops\setup.py file, downloaded from [PointTransformer](https://github.com/POSTECH-CVLab/point-transformer),  with `python3.9 setup.py install` 
 5. Install [h5py](https://docs.h5py.org/en/latest/build.html) with `conda install h5py`
