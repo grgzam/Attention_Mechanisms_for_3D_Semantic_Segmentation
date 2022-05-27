@@ -14,3 +14,8 @@ Our implemented network "SPVCNN with Point Transformer in the voxel branch", ach
   “conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge”
   '''
 
+```
+git status
+git add
+git commit
+```
