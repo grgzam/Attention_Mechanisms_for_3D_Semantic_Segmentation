@@ -55,9 +55,32 @@ All the codes are tested in the following environment:
      - 00
        - labels
        - velodyne
-     ...
+     - ...
      - 21
        - velodyne
+       
+ - Street3D
+   - txt
+     - train
+       - 5D4KVPBP.txt
+       - ...
+     - test
+       - 5D4KVPG4.txt
+       - ...
+    
+   - h5
+     - train
+       - 5D4KVPBP.h5
+       - ...
+     - test
+       - 5D4KVPG4.h5
+       - ...
+     - train_part_80k
+       - 5D4KVPBP0.bin
+       - ...
+     - test_part_80k
+       - 5D4KVPG40.bin
+       - ...
        
        
 
