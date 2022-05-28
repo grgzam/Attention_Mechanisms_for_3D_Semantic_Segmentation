@@ -44,8 +44,8 @@ All the codes are tested in the following environment:
  python scripts/Streed3D/street3d_txt_to_h5.py
  python scripts/Streed3D/street3d_partition_train.py
  python scripts/Streed3D/street3d_partition_test.py
- 
  ```
+ 
  The first script converts the dataset to h5 format and places it in the `data/Street3D/h5` folder
  The following scripts split each scene into subscenes of around 80k points and save them in `.bin` format into proper folders, `train_part_80k` and `test_part_80k` sets respectively. The `train_part_80k` folder should contain 2458 files and the `test_part_80k` folder should contain 845 files. Training and testing is performed based on these split subscenes of 80k points. 
  
