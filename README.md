@@ -70,6 +70,8 @@ All the codes are tested in the following environment:
          - 000000.bin
          - ...
        
+       
+       
  - Street3D/
    - txt/
      - train/
@@ -98,6 +100,30 @@ All the codes are tested in the following environment:
        
        
 ## Training
+
+To train the networks, check the following scripts for each dataset:
+```
+python scripts/SemanticKITTI/kitti_train_all.py
+python scripts/Street3D/street3d_train_all.py
+```
+
+Inside each file, you can select the proper architecture to train, as well as training parameters
+
+
+## Inference
+
+To test the networks in SemanticKITTI validation set or Street3D test set, check the following scripts for each dataset:
+```
+python scripts/SemanticKITTI/kitti_inference_all.py
+python scripts/Street3D/street3d_inference_all.py
+```
+
+## Pretrained weights
+
+The pretrained weights used in our paper are provided here
+The size is around 4.8 GB for all networks
+
+Unzip the `pretrained_weights.zip` file in the main folder of the repository
 
 
 
