@@ -53,11 +53,22 @@ All the codes are tested in the following environment:
  - SemanticKITTI/
    - sequences/
      - 00/
+       - poses.txt
        - labels/
+         - 000000.label
+         - ...
+         
        - velodyne/
+         - 000000.bin
+         - ...
+         
      - ...
+     
      - 21/
+       - poses.txt
        - velodyne/
+         - 000000.bin
+         - ...
        
  - Street3D/
    - txt/
@@ -72,12 +83,15 @@ All the codes are tested in the following environment:
      - train/
        - 5D4KVPBP.h5
        - ...
+       
      - test/
        - 5D4KVPG4.h5
        - ...
+       
      - train_part_80k/
        - 5D4KVPBP0.bin
        - ...
+       
      - test_part_80k/
        - 5D4KVPG40.bin
        - ...
