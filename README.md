@@ -33,5 +33,34 @@ All the codes are tested in the following environment:
 - [Street3D](https://kutao207.github.io/shrec2020)
 
 ### SemanticKITTI
+- Please follow the instructions from [here](http://www.semantic-kitti.org/dataset.html#download) to download the SemanticKITTI dataset (both KITTI Odometry dataset and SemanticKITTI labels) and extract all the files in the sequences folder to `data/SemanticKITTI`. You should see 22 folders. Folders 00-10 should have subfolders named 'velodyne' and 'labels'. The rest 11-21 folders are used for online testing and should not contain any 'labels' folder, only the `velodyne` folder.
+
+### Street3D
+- Plese follow the instructions from [here](https://kutao207.github.io/shrec2020) to download the Street3D dataset. It is in a `.txt` form. Plase it in the `data/Street3D/txt` folder, where you should have two folders, 'train' and 'test' with 60 and 20 txt files, respectively.
+- Next, execute the pre-processing scripts as follows:
+ ```
+ python scripts/Streed3D/street3d_txt_to_h5.py
+ python scripts/Streed3D/street3d_partition_train.py
+ python scripts/Streed3D/street3d_partition_test.py
+ 
+ ```
+ The first script converts the dataset to h5 format and places it in the `data/Street3D/h5` folder
+ The following scripts split each scene into subscenes of around 80k points and save them in `.bin' format into proper folders, `train_part_80k` and `test_part_80k` sets respectively. The `train_part_80k` folder should contain 2458 files and the `test_part_80k` folder should contain 845 files. Training and testing is performed based on these split subscenes of 80k points. 
+ 
+ The final structure for both datasets should look like this:
+ 
+ data
+ - SemanticKITTI
+   - sequences
+     - 00
+       - labels
+       - velodyne
+     ...
+     - 21
+       - velodyne
+       
+       
+
+
 
 
