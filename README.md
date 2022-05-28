@@ -107,7 +107,7 @@ python scripts/SemanticKITTI/kitti_train_all.py
 python scripts/Street3D/street3d_train_all.py
 ```
 
-Inside each file, you can select the proper architecture to train, as well as training parameters
+Inside each file, you can select the proper network to train, as well as training parameters.
 
 
 ## Inference
@@ -117,13 +117,15 @@ To test the networks in SemanticKITTI validation set or Street3D test set, check
 python scripts/SemanticKITTI/kitti_inference_all.py
 python scripts/Street3D/street3d_inference_all.py
 ```
+Inside each file, you can select the proper network to inference, as well as to load the proper weights.
+
 
 ## Pretrained weights
 
-The pretrained weights used in our paper are provided here
-The size is around 4.8 GB for all networks
+The pretrained weights used in our paper are provided [here](https://vc.ee.duth.gr:6960/index.php/s/iWh3sHqIwyfTAQ2)
+The size is around 4.8 GB for the weights for all networks
 
-Unzip the `pretrained_weights.zip` file in the main folder of the repository
+Next, unzip the `pretrained_weights.zip` file in the main folder of the repository
 
 
 
