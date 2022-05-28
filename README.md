@@ -4,7 +4,9 @@
 # Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms
 This is the official implementation of "Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms" paper
 
-Our implemented network "SPVCNN with Point Transformer in the voxel branch", achieves State Of the Art Results in Street3D dataset
+Our implemented network "SPVCNN with Point Transformer in the voxel branch", achieves State Of the Art Results in Street3D dataset.
+
+The baseline models are implemented according to [Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution](https://github.com/mit-han-lab/spvnas)
 
 ## Requirements
 
