@@ -36,7 +36,7 @@ All the codes are tested in the following environment:
 - Please follow the instructions from [here](http://www.semantic-kitti.org/dataset.html#download) to download the SemanticKITTI dataset (both KITTI Odometry dataset and SemanticKITTI labels) and extract all the files in the sequences folder to `data/SemanticKITTI`. You should see 22 folders. Folders 00-10 should have subfolders named 'velodyne' and 'labels'. The rest 11-21 folders are used for online testing and should not contain any 'labels' folder, only the `velodyne` folder.
 
 ### Street3D
-- Plese follow the instructions from [here](https://kutao207.github.io/shrec2020) to download the Street3D dataset. It is in a `.txt` form. Plase it in the `data/Street3D/txt` folder, where you should have two folders, 'train' and 'test' with 60 and 20 txt files, respectively.
+- Plese follow the instructions from [here](https://kutao207.github.io/shrec2020) to download the Street3D dataset. It is in a `.txt` form. Place it in the `data/Street3D/txt` folder, where you should have two folders, 'train' and 'test' with 60 and 20 txt files, respectively.
 - Next, execute the pre-processing scripts as follows:
  ```
  python scripts/Streed3D/street3d_txt_to_h5.py
@@ -49,36 +49,36 @@ All the codes are tested in the following environment:
  
  The final structure for both datasets should look like this:
  
- data
- - SemanticKITTI
-   - sequences
-     - 00
-       - labels
-       - velodyne
+ data/
+ - SemanticKITTI/
+   - sequences/
+     - 00/
+       - labels/
+       - velodyne/
      - ...
-     - 21
-       - velodyne
+     - 21/
+       - velodyne/
        
- - Street3D
-   - txt
-     - train
+ - Street3D/
+   - txt/
+     - train/
        - 5D4KVPBP.txt
        - ...
-     - test
+     - test/
        - 5D4KVPG4.txt
        - ...
     
-   - h5
-     - train
+   - h5/
+     - train/
        - 5D4KVPBP.h5
        - ...
-     - test
+     - test/
        - 5D4KVPG4.h5
        - ...
-     - train_part_80k
+     - train_part_80k/
        - 5D4KVPBP0.bin
        - ...
-     - test_part_80k
+     - test_part_80k/
        - 5D4KVPG40.bin
        - ...
        
