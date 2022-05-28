@@ -124,7 +124,8 @@ Inside each file, you can select the proper network to inference, as well as to 
 
 ## Pretrained weights
 
-The pretrained weights used in our paper are provided [here](https://vc.ee.duth.gr:6960/index.php/s/iWh3sHqIwyfTAQ2)
+The pretrained weights, used in our paper, are provided [here](https://vc.ee.duth.gr:6960/index.php/s/iWh3sHqIwyfTAQ2). 
+
 The size is around 4.8 GB for the weights for all networks
 
 Next, unzip the `pretrained_weights.zip` file in the main folder of the repository
