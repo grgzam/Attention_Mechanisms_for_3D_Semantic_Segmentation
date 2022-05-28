@@ -32,3 +32,6 @@ All the codes are tested in the following environment:
 - [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download)
 - [Street3D](https://kutao207.github.io/shrec2020)
 
+### SemanticKITTI
+
+
