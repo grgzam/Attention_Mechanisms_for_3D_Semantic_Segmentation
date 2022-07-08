@@ -131,4 +131,15 @@ The size is around 4.8 GB for the weights for all networks
 Next, unzip the `pretrained_weights.zip` file in the main folder of the repository
 
 
+## Citation
+If you find this work useful in your research, please consider cite:
 
+```
+@article{vanian2022improving,
+  title={Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms},
+  author={Vanian, Vazgen and Zamanakos, Georgios and Pratikakis, Ioannis},
+  journal={Computers \& Graphics},
+  year={2022},
+  publisher={Elsevier}
+}
+```
