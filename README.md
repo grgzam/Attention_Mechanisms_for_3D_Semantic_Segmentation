@@ -2,7 +2,7 @@
 ![](imgs/Street3D_viz.jpg)
 
 # Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms
-This is the official implementation of "Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms" paper
+This is the official implementation of "Improving performance of deep learning models for 3D point cloud semantic segmentation via attention mechanisms" paper, that you can download [here](https://doi.org/10.1016/j.cag.2022.06.010).
 
 Our implemented network "SPVCNN with Point Transformer in the voxel branch", achieves State Of the Art Results in Street3D dataset.
 
